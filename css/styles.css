@@ -118,6 +118,10 @@ body{
  color: var(--hover-text-color);
 }
 
+.contact-svg {
+  fill: currentColor;
+  margin-right: 10px;
+}
 /*.header-link {
   display: flex;
 }
