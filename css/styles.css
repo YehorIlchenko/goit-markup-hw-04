@@ -7,6 +7,7 @@
  --text-black-color: #212121;
  --buton-color: #F5F4FA;
  --hover-text-color: #2196f3;
+ --icon-color: #afb1b8;
 } 
 
 /*общие*/
@@ -196,9 +197,8 @@ body{
 
 /*4абзаца*/
 .features {
-  padding-bottom: 94px;
+  padding-bottom: 89px;
   padding-top: 94px;
-
 }
 
 .features-not-see {
@@ -374,6 +374,38 @@ body{
   /* text-align: center; */
   letter-spacing: 0.03em;
   color: var(--primeri-text-color);
+}
+
+.team-icon {
+  display: flex;
+  margin-right: 32px;
+  margin-bottom: 30px;
+  margin-left: 32px;
+}
+
+.team-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+.list-icon:not(:last-child) {
+  margin-right: 10px;
+}
+.team-svg {
+  fill: var(--icon-color);
+}
+
+.team-link:hover,
+.team-link:focus {
+  background-color: var(--hover-text-color);
+}
+
+.team-link:hover .team-svg,
+.team-link:focus .team-svg {
+  fill: #ffffff;
 }
 
 /*Постоянные клиенты*/
