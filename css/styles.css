@@ -427,6 +427,37 @@ body{
   background-color: var(--body-background-color);
 }
  
+.clients {
+  display: flex;
+}
+
+.clients-li:not(:last-child) {
+  margin-right: 30px;
+}
+
+.clients-li {
+  display: flex;
+  width: 170px;
+  height: 90px;
+  padding: 20px 45px;
+  border-radius: 4px;
+  border: 1px solid #afb1b8;
+}
+
+.clients-li:focus,
+.clients-li:hover {
+  border-color: var(--hover-text-color);
+  fill: var(--icon-color);
+}
+
+.clients-li:focus .clients-svg,
+.clients-li:hover .clients-svg {
+  fill: var(--hover-text-color);
+}
+
+.clients-svg {
+  fill: var(--icon-color);
+}
 
 
 /*подвад*/
