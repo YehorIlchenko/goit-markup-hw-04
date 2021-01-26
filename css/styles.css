@@ -506,6 +506,10 @@ background-color: transparent;
   padding-bottom: 60px;
 }
 
+.footer-div {
+  display: flex;
+}
+
 .footer .logo {
   display: block;
   color: var(--body-background-color);
@@ -539,10 +543,6 @@ background-color: transparent;
  color: var(--hover-text-color)
 }
 
-/*.conteiner {
-  display: flex;
-}
-*/
 .join {
   margin-left: 70px;
 }
@@ -577,7 +577,7 @@ background-color: transparent;
   background-color: var(--hover-text-color);
 }
 .join-svg {
-  fill: #ffffff;
+  fill: currentColor;
 }
 
 /*Портфолио*/
