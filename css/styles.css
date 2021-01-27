@@ -120,7 +120,11 @@ body{
  color: var(--hover-text-color);
 }
 
-.header-svg-mail {
+.header-svg {
+  fill: currentColor;
+  margin-right: 10px;
+}
+/*.header-svg-mail {
   align-items: center;
   width: 16px;
   height: 12px;
@@ -433,12 +437,10 @@ background-color: transparent;
 
 .team-link:hover,
 .team-link:focus {
-  fill: var(--body-background-color);
   background-color: var(--hover-text-color);
 }
 
-
-/*.team-link:hover .team-svg,
+.team-link:hover .team-svg,
 .team-link:focus .team-svg {
   fill: #ffffff;
 }
@@ -567,10 +569,18 @@ background-color: transparent;
 .join {
   margin-left: 70px;
 }
-.join-title {
+/*.join-title {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+*/
+.join-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
