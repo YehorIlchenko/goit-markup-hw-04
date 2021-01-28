@@ -650,21 +650,11 @@ background-color: transparent;
   border: 0;
   cursor: pointer;
 }
-.button-portfolio :hover,
-.button-portfolio :focus {
-  color: var(--body-background-color);
-  background-color: var(--hover-text-color);
-  border-radius: 4px;
-}
-
-.button-portfolio{
- background-color: var(--buton-color);
-}
 
 .button-portfolio:hover,
-.button-portfolio :focus {
+.button-portfolio:focus {
+  color: var(--body-background-color);
   background-color: var(--hover-text-color);
-  color: var(--text-wite-color);
 }
 
 /*проекты
@@ -692,12 +682,19 @@ background-color: transparent;
   background: var(--body-background-color);
   border: 1px solid #eeeeee;
 }
-
+/*
 .project-li:hover,
 .project-li:focus {
 border: 1px solid #eeeeee;
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+*/
+
+.project-li:hover,
+.project-li:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .projects-view-h3 {
